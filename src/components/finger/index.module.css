@@ -1,0 +1,13 @@
+.finger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background: rgb(181, 234, 255);
+    align-self: center;
+    margin: auto;
+    user-select: none;
+}

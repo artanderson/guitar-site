@@ -1,0 +1,25 @@
+.chord {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 280px;
+    height: 200px;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+.frets {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    grid-row: 1 / 7;
+    grid-column: 4 / 5;
+}
+.fretsLeft {
+    grid-column: 2 / 3;
+}
+.strings {
+    grid-column: 1 / 6;
+    align-self: center;
+}
+.string {
+    border-bottom: 2px solid black;
+}
