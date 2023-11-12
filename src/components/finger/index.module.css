@@ -1,13 +1,8 @@
-.finger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    background: rgb(181, 234, 255);
+.bar {
+    border-radius: 5px;
     align-self: center;
-    margin: auto;
-    user-select: none;
+    margin-left: 20px;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(181, 234, 255);
 }

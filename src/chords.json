@@ -5,7 +5,7 @@
             "note": "root on 6th string",
             "chords": {
                 "Maj": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 6},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 2, "fret": 2},
                     "d": {"finger": 4, "fret": 3},
@@ -13,7 +13,7 @@
                     "E": {"finger": 1, "fret": 1}
                 },
                 "Dom7": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 6},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 2, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
@@ -21,7 +21,7 @@
                     "E": {"finger": 1, "fret": 1}
                 },
                 "m": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 6},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 4, "fret": 3},
@@ -29,7 +29,7 @@
                     "E": {"finger": 1, "fret": 1}
                 },
                 "m7": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 6},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 1, "fret": 1},
@@ -43,36 +43,36 @@
             "note": "root on 5th string",
             "chords": {
                 "Maj": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 5},
                     "b": {"finger": 3, "fret": 3},
                     "g": {"finger": 3, "fret": 3},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 1, "fret": 1},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 5},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 1, "fret": 1},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "m": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 5},
                     "b": {"finger": 2, "fret": 2},
                     "g": {"finger": 4, "fret": 3},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 1, "fret": 1},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "m7": {
-                    "e": {"finger": 1, "fret": 1},
+                    "e": {"finger": 1, "fret": 1, "bar": 5},
                     "b": {"finger": 2, "fret": 2},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 1, "fret": 1},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 }
             }
         },
@@ -81,75 +81,75 @@
             "note":"root on 6th string",
             "chords": {
                 "Maj7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 2, "fret": 2},
                     "g": {"finger": 4, "fret": 3},
                     "d": {"finger": 3, "fret": 3},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 1, "fret": 2}
                 },
                 "Dom7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 3, "fret": 2},
                     "g": {"finger": 4, "fret": 3},
                     "d": {"finger": 2, "fret": 2},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 1, "fret": 2}
                 },
                 "Maj6": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 3, "fret": 2},
                     "g": {"finger": 4, "fret": 3},
                     "d": {"finger": 1, "fret": 1},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 2, "fret": 2}
                 },
                 "m7": {
-                    "e": "mute",
-                    "b": {"finger": 3, "fret": 2},
+                    "e": {"finger": "X", "fret": 0},
+                    "b": {"finger": 3, "fret": 2, "bar": 4},
                     "g": {"finger": 3, "fret": 2},
                     "d": {"finger": 3, "fret": 2},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 2, "fret": 2}
                 },
                 "m6": {
-                    "e": "mute",
-                    "b": {"finger": 3, "fret": 2},
+                    "e": {"finger": "X", "fret": 0},
+                    "b": {"finger": 3, "fret": 2, "bar": 3},
                     "g": {"finger": 3, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 2, "fret": 2}
                 },
                 "Ø7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 4, "fret": 2},
                     "d": {"finger": 3, "fret": 2},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 2, "fret": 2}
                 },
                 "O7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 2, "fret": 1},
                     "g": {"finger": 4, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 3, "fret": 2}
                 },
                 "Dom7(♭5)": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 1, "fret": 1},
                     "g": {"finger": 4, "fret": 3},
                     "d": {"finger": 3, "fret": 2},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 2, "fret": 2}
                 },
                 "Dom7(13)": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 4, "fret": 4},
                     "g": {"finger": 3, "fret": 3},
                     "d": {"finger": 2, "fret": 2},
-                    "a": "mute",
+                    "a": {"finger": "X", "fret": 0},
                     "E": {"finger": 1, "fret": 2}
                 }
             }
@@ -159,68 +159,68 @@
             "note":"root on 5th string",
             "chords": {
                 "Maj7": {
-                    "e": {"finger": 1, "fret": 2},
+                    "e": {"finger": 1, "fret": 2, "bar": 5},
                     "b": {"finger": 4, "fret": 4},
                     "g": {"finger": 2, "fret": 3},
                     "d": {"finger": 3, "fret": 4},
                     "a": {"finger": 1, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7": {
-                    "e": {"finger": 1, "fret": 2},
+                    "e": {"finger": 1, "fret": 2, "bar": 5},
                     "b": {"finger": 4, "fret": 4},
                     "g": {"finger": 1, "fret": 2},
                     "d": {"finger": 3, "fret": 4},
                     "a": {"finger": 1, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Maj6": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 4, "fret": 4},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 3, "fret": 4},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "m7": {
                     "e": {"finger": 3, "fret": 2},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 2, "fret": 2},
-                    "d": "mute",
+                    "d": {"finger": "X", "fret": 0},
                     "a": {"finger": 1, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "m6": {
                     "e": {"finger": 3, "fret": 2},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 1, "fret": 1},
-                    "d": "mute",
+                    "d": {"finger": "X", "fret": 0},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Ø7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 2, "fret": 2},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 1, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "O7": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 1, "fret": 1},
                     "d": {"finger": 3, "fret": 3},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7(13)": {
-                    "e": {"finger": 3, "fret": 3},
+                    "e": {"finger": 3, "fret": 3, "bar": 2},
                     "b": {"finger": 3, "fret": 3},
                     "g": {"finger": 1, "fret": 2},
-                    "d": "mute",
+                    "d": {"finger": "X", "fret": 0},
                     "a": {"finger": 1, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7(9)": {
                     "e": {"finger": 3, "fret": 2, "bar": 3},
@@ -228,23 +228,23 @@
                     "g": {"finger": 3, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7(♯9)": {
-                    "e": "mute",
+                    "e": {"finger": "X", "fret": 0},
                     "b": {"finger": 4, "fret": 3},
                     "g": {"finger": 3, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 },
                 "Dom7(♭9)": {
-                    "e": "mute",
-                    "b": {"finger": 1, "fret": 1},
+                    "e": {"finger": "X", "fret": 0},
+                    "b": {"finger": 1, "fret": 1, "bar": 4},
                     "g": {"finger": 3, "fret": 2},
                     "d": {"finger": 1, "fret": 1},
                     "a": {"finger": 2, "fret": 2},
-                    "E": "mute"
+                    "E": {"finger": "X", "fret": 0}
                 }
             }
         }

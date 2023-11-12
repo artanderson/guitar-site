@@ -1,0 +1,30 @@
+.base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    user-select: none;
+    font-weight: 700;
+}
+.finger {
+    background: rgb(181, 234, 255);
+}
+.mute {
+    background: gray;
+    color: #fff;
+}
+.open {
+    background: #fff;
+    color: gray;
+    border: 2px solid gray;
+}
+.bar {
+    border-radius: 5px;
+    align-self: center;
+    margin-left: 20px;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(181, 234, 255);
+}
