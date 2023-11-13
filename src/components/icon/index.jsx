@@ -2,13 +2,14 @@ import React from "react";
 import styles from './index.module.css';
 import clsx from "clsx";
 
-const Icon = ({mute, open, value, style}) => {
+const Icon = ({mute, value, style}) => {
+    if(!mute) mute = value === 5;
     return (
         <div 
-            className={clsx(styles.base, mute && styles.mute, open && styles.open, (!mute && !open) && styles.finger)} 
+            className={clsx(styles.base, mute ? styles.mute : styles.finger)} 
             style={style ?? {}}
         >
-            {value}
+            <span>{mute ? "X" : value}</span>
         </div>
     )
 }

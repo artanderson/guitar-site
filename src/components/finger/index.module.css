@@ -4,5 +4,5 @@
     margin-left: 20px;
     width: 5px;
     height: 100%;
-    background-color: rgb(181, 234, 255);
+    background-color: var(--highlight-color);
 }

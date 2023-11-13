@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './index.module.css';
 import Chord from '../components/chord';
 import data from '../chords.json';
 import Legend from '../components/legend';
+import Scales from '../components/scales';
 
 function App() {
 	const chords = data.forms;
+	const fingers = data.key.fingers;
   	return (
       	<div className={styles.app}>
-			<h2>Legend</h2>
-			<div className={styles.chords}>
-				<Legend />
+			<div className={styles.top}>
+				<Scales />
+				<Legend fingers={fingers} />
 			</div>
         	{chords.map((form, idx) => (
 			<div className={styles.form} key={idx}>

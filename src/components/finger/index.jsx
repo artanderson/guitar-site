@@ -3,8 +3,8 @@ import styles from './index.module.css';
 import Icon from '../icon';
 
 const Finger = ({finger, string, fret, bar}) => {
-    const mute = finger === "X";
-    const open = finger === "O";
+    const mute = finger === 5;
+    const open = finger === 0;
 
     const style = {
         gridRow: string,
@@ -21,7 +21,7 @@ const Finger = ({finger, string, fret, bar}) => {
     return (
         <>
         {bar && <div style={barStyle} className={styles.bar} />}
-        <Icon mute={mute} open={open} value={finger} style={style}/>
+        <Icon mute={mute} value={finger} style={style}/>
         </>
     )
 }

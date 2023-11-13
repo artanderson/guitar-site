@@ -3,6 +3,13 @@
   margin: 0 auto;
   padding: 20px;
 }
+.top {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
 .form {
   margin-bottom: 60px;
   flex: 1;
@@ -11,7 +18,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0px 30px;
-  width: fit-content;
+  width: 100%;
   margin: auto;
 }
 .chord {

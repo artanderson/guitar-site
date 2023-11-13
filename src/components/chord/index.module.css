@@ -4,12 +4,15 @@
     grid-template-rows: repeat(6, 1fr);
     width: 280px;
     height: 200px;
-    border: 1px solid lightgray;
+    border-radius: 5px;
     justify-content: center;
+    background: linear-gradient(to left, rgba(233,223,196,.7) 0%,rgba(233,223,196,.7) 1%,rgba(237,227,200,.7) 2%,rgba(237,227,200,.7) 24%,rgba(235,221,195,.7) 25%,rgba(233,223,196,.7) 48%,rgba(235,221,195,.7) 49%,rgba(230,216,189,.7) 52%,rgba(230,216,189,.7) 53%,rgba(233,219,192,.7) 54%,rgba(230,216,189,.7) 55%,rgba(230,216,189,.7) 56%,rgba(233,219,192,.7) 57%,rgba(230,216,189,.7) 58%,rgba(230,216,189,.7) 73%,rgba(233,219,192,.7) 74%,rgba(233,219,192,.7) 98%,rgba(235,221,195,.7) 100%);
+    background-size: 50px;
+    background-repeat: repeat;
 }
 .frets {
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
     grid-row: 1 / 7;
     grid-column: 4 / 5;
 }

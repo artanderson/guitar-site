@@ -1,0 +1,69 @@
+.scales {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 300px;
+}
+.scalesContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 900px;
+}
+.scalesContent h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.notes, .steps {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.note, .step {
+    width: 30px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.step {
+    width: 70px;
+}
+.note:hover, .step:hover, .active {
+    border-color: var(--highlight-color);
+}
+.active {
+    background: var(--highlight-color);
+    color: var(--highlight-text-color)
+}
+.scale {
+    display: flex;
+    gap: 10px;
+}
+.scaleNote {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    flex: 0 1 70px;
+}
+.pos {
+    border-bottom: 1px solid lightgray;
+}
+.posNote {
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 399px){
+    .scales {
+        padding: 10px;
+    }
+    .posNote {
+        font-size: 1rem;
+    }
+}
